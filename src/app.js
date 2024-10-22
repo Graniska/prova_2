@@ -7,9 +7,9 @@
             const express = require('express');
             
         // importando os roteadores
-            const maintenanceRouter = require ("/routers/maintenanceRouter.js")
-            const vehicleRouter = require ("/routers/vehicleRouter.js")
-            const workshopRouter = require("/routers/worskshopRouter.js")
+            const maintenanceRouter = require ("/router/maintenanceRouter.js")
+            const vehicleRouter = require ("/router/vehicleRouter.js")
+            const workshopRouter = require("/router/worskshopRouter.js")
             
         // assim que "connectDB" for mencionado no modulo atual,
         // a conexão com o banco de dados será possível por conta da importação seguinte
