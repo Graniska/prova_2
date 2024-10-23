@@ -6,6 +6,8 @@
             //import express from "express";
             const express = require('express');
             
+            require('dotenv').config();
+            
         // importando os roteadores
             const maintenanceRouter = require ("/router/maintenanceRouter.js")
             const vehicleRouter = require ("/router/vehicleRouter.js")
