@@ -7,11 +7,11 @@
             const express = require('express');
             
             require('dotenv').config();
-            
+
         // importando os roteadores
-            const maintenanceRouter = require ("/router/maintenanceRouter.js")
-            const vehicleRouter = require ("/router/vehicleRouter.js")
-            const workshopRouter = require("/router/worskshopRouter.js")
+            const maintenanceRouter = require ("./router/maintenanceRouter")
+            const vehicleRouter = require ("./router/vehicleRouter.js")
+            const workshopRouter = require("./router/worskshopRouter.js")
             
         // assim que "connectDB" for mencionado no modulo atual,
         // a conexão com o banco de dados será possível por conta da importação seguinte
