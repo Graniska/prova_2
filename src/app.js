@@ -15,7 +15,7 @@
             
         // assim que "connectDB" for mencionado no modulo atual,
         // a conexão com o banco de dados será possível por conta da importação seguinte
-            const connectDB = require ("/config/db.js")
+            const connectDB = require ("./config/db.js")
             
         //instância para a conexão com o banco de dados
             connectDB();
